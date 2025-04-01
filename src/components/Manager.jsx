@@ -26,6 +26,26 @@ const Manager = () => {
             className="rounded-full py-2 text-xl  border-green-500 border-2 w-1/2"
           />
         </div>
+        <div>
+          <input
+            type="text"
+            className="rounded-full py-2 text-xl border-green-500 border-2 w-1/2"
+          />
+          <input
+            type="text"
+            className="rounded-full py-2 text-xl  border-green-500 border-2 w-1/2"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            className="rounded-full py-2 text-xl border-green-500 border-2 w-1/2"
+          />
+          <input
+            type="text"
+            className="rounded-full py-2 text-xl  border-green-500 border-2 w-1/2"
+          />
+        </div>
       </div>
       <button className="text-xl   ">                                             
         {" "}
@@ -37,25 +57,7 @@ const Manager = () => {
         Add Password{" "}
       </button>
     </div>
-    <button className="text-xl   ">                                             
-    {" "}
-    <lord-icon
-      src="https://cdn.lordicon.com/jgnvfzqg.json"
-      trigger="hover"
-      className="h-20 w-20"
-    ></lord-icon>
-    Add Password{" "}
-  </button>
-   <button className="text-xl   ">                                             
-   {" "}
-   <lord-icon
-     src="https://cdn.lordicon.com/jgnvfzqg.json"
-     trigger="hover"
-     className="h-20 w-20"
-   ></lord-icon>
-   Add Password{" "}
- </button>
-</div>
+    
   );
 };
 
