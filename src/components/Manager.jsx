@@ -27,7 +27,7 @@ const Manager = () => {
           />
         </div>
       </div>
-      <button className=" justify-center text-center p-4 bg-green-500  ">
+      <button className="text-xl   ">                                             
         {" "}
         <lord-icon
           src="https://cdn.lordicon.com/jgnvfzqg.json"
@@ -37,6 +37,25 @@ const Manager = () => {
         Add Password{" "}
       </button>
     </div>
+    <button className="text-xl   ">                                             
+    {" "}
+    <lord-icon
+      src="https://cdn.lordicon.com/jgnvfzqg.json"
+      trigger="hover"
+      className="h-20 w-20"
+    ></lord-icon>
+    Add Password{" "}
+  </button>
+   <button className="text-xl   ">                                             
+   {" "}
+   <lord-icon
+     src="https://cdn.lordicon.com/jgnvfzqg.json"
+     trigger="hover"
+     className="h-20 w-20"
+   ></lord-icon>
+   Add Password{" "}
+ </button>
+</div>
   );
 };
 
